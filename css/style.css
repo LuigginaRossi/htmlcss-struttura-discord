@@ -24,7 +24,7 @@ section{
     height: auto;
 }
 
-section .flex{
+.flex{
     display: flex;
 }
 
@@ -60,4 +60,29 @@ section .flex{
 
 .gray-bg{
     background-color: #d3d3d3;
+}
+
+.green-rectangle{
+    height: 350px;
+    background-color: #228b22;
+}
+
+.pink-col{
+    width: calc(100%/6*2);
+    background-color: #f08080;
+}
+
+.blu-col{
+    background-color: #20b2aa;
+    width: calc(100%/6);
+}
+
+.logo-button{
+    height: auto;
+    justify-content: space-between;
+    background-color: #7fffd4;
+}
+
+.pink-logo,.pink-button{
+    background-color: #ffb6c1;
 }
