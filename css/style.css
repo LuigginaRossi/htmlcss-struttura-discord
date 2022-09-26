@@ -1,25 +1,31 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    border: 1px dashed lightcoral;   
+    box-sizing: border-box; 
 }
 
 nav{
     background-color: #add8e6;
 }
 
-nav .link{
-    flex-grow: 1;
-    text-align:center;
-}
-
-
 section{
     padding: 40px 80px;
 }
 
-.container.nav{
+footer{ 
+    background-color: #23272a;
+}
+
+div :not(.container){
+    border: 1px dashed black;
+}
+
+header nav .link{
+    flex-grow: 1;
+    text-align:center;
+}
+
+header nav .container.nav{
     display: flex;  
     height: auto;
 }
@@ -31,58 +37,66 @@ section{
 .container{
     width: 920px;
     margin: 0 auto;
-    /* rimuovere!!! */
     height: 250px;
 }
 
-.logo,.link,.login{
+header nav .logo,.link,.login{
     background-color: #daa520;
 }
 
-.smaller{
+main section .smaller{
     width: 700px;
     background-color: #ee82ee;
+    border: 1px dashed black;
 }
 
-.blue-background{
+nav,footer .container.flex{
+    padding: 0.5rem 0;
+}
+
+main .blue-background{
     background-color: #00008b ;
 }
 
-.blue-rectangle{
+main section .blue-rectangle{
     width: calc(100%/3*2);
     background-color: #1e90ff;
 }
 
-.pink-square{
+main section .pink-square{
     background-color: #ffc0cb;
     width: calc(100%/3);
 }
 
-.gray-bg{
+main .gray-bg{
     background-color: #d3d3d3;
 }
 
-.green-rectangle{
+.gray-bg .green-rectangle{
     height: 350px;
     background-color: #228b22;
+    border: 1px dashed black;
 }
 
-.pink-col{
+footer .pink-col{
     width: calc(100%/6*2);
     background-color: #f08080;
 }
 
-.blu-col{
+footer .blu-col{
     background-color: #20b2aa;
     width: calc(100%/6);
 }
 
-.logo-button{
+footer .logo-button{
     height: auto;
     justify-content: space-between;
     background-color: #7fffd4;
 }
 
-.pink-logo,.pink-button{
+footer .pink-logo,.pink-button{
     background-color: #ffb6c1;
 }
+
+
+
