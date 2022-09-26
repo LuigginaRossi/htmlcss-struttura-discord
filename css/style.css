@@ -2,4 +2,62 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    border: 1px dashed lightcoral;   
+}
+
+nav{
+    background-color: #add8e6;
+}
+
+nav .link{
+    flex-grow: 1;
+    text-align:center;
+}
+
+
+section{
+    padding: 40px 80px;
+}
+
+.container.nav{
+    display: flex;  
+    height: auto;
+}
+
+section .flex{
+    display: flex;
+}
+
+.container{
+    width: 920px;
+    margin: 0 auto;
+    /* rimuovere!!! */
+    height: 250px;
+}
+
+.logo,.link,.login{
+    background-color: #daa520;
+}
+
+.smaller{
+    width: 700px;
+    background-color: #ee82ee;
+}
+
+.blue-background{
+    background-color: #00008b ;
+}
+
+.blue-rectangle{
+    width: calc(100%/3*2);
+    background-color: #1e90ff;
+}
+
+.pink-square{
+    background-color: #ffc0cb;
+    width: calc(100%/3);
+}
+
+.gray-bg{
+    background-color: #d3d3d3;
 }
