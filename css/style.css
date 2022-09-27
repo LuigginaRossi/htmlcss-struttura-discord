@@ -8,6 +8,16 @@ nav{
     background-color: #add8e6;
 }
 
+li{
+    list-style:none;
+  }
+  
+li a{
+    text-decoration: none;
+    color: black;
+    /* justify-content: center; non funziona */
+  }
+
 section{
     padding: 40px 80px;
 }
@@ -20,14 +30,16 @@ div :not(.container){
     border: 1px dashed black;
 }
 
-header nav .link{
-    flex-grow: 1;
-    text-align:center;
+header nav .logo{
+    width: 15%;
 }
 
-header nav .container.nav{
-    display: flex;  
-    height: auto;
+header nav .login{
+    width: 15%;
+}
+
+.container-link{
+    width: 70%;
 }
 
 .flex{
@@ -40,8 +52,11 @@ header nav .container.nav{
     height: 250px;
 }
 
-header nav .logo,.link,.login{
+.container-nav{
     background-color: #daa520;
+    width: 920px;
+    margin: 0 auto;
+    height: auto;
 }
 
 main section .smaller{
@@ -97,6 +112,3 @@ footer .logo-button{
 footer .pink-logo,.pink-button{
     background-color: #ffb6c1;
 }
-
-
-
